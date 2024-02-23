@@ -10,19 +10,6 @@
     },
     "items": [
         {
-            "id": "https://ct-choochoo.github.io/ch-publii-pages/123/",
-            "url": "https://ct-choochoo.github.io/ch-publii-pages/123/",
-            "title": "123",
-            "content_html": "<figure class=\"post__video\"><video loading=\"lazy\" width=\"300\" height=\"150\" controls=\"controls\" data-mce-fragment=\"1\">\n<source src=\"https://www.bilibili.com/video/BV1EK411a76s\" /></video></figure>",
-            "author": {
-                "name": "铁柱"
-            },
-            "tags": [
-            ],
-            "date_published": "2024-02-23T16:49:13+08:00",
-            "date_modified": "2024-02-23T16:49:13+08:00"
-        },
-        {
             "id": "https://ct-choochoo.github.io/ch-publii-pages/qionglai/",
             "url": "https://ct-choochoo.github.io/ch-publii-pages/qionglai/",
             "title": "邛崃特种兵行动",
