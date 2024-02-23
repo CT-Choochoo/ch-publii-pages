@@ -17,8 +17,8 @@
         <link href="https://ct-choochoo.github.io/ch-publii-pages/qionglai/"/>
         <id>https://ct-choochoo.github.io/ch-publii-pages/qionglai/</id>
         <media:content url="https://ct-choochoo.github.io/ch-publii-pages/media/posts/38/IMG_5545.jpeg" medium="image" />
+            <category term="出行"/>
             <category term="real"/>
-            <category term="outing"/>
 
         <updated>2023-08-22T16:22:11+08:00</updated>
             <summary>
@@ -151,7 +151,7 @@
         <link href="https://ct-choochoo.github.io/ch-publii-pages/emby48039/"/>
         <id>https://ct-choochoo.github.io/ch-publii-pages/emby48039/</id>
         <media:content url="https://ct-choochoo.github.io/ch-publii-pages/media/posts/33/IMG_9807.png" medium="image" />
-            <category term="common"/>
+            <category term="常用"/>
 
         <updated>2023-07-14T13:35:01+08:00</updated>
             <summary>
@@ -351,8 +351,8 @@ Options:
         <link href="https://ct-choochoo.github.io/ch-publii-pages/chengdu_to_xichang/"/>
         <id>https://ct-choochoo.github.io/ch-publii-pages/chengdu_to_xichang/</id>
         <media:content url="https://ct-choochoo.github.io/ch-publii-pages/media/posts/28/milan.deyy-Photo-shared-by-KitBash3D-on-December-04-2021-tagging-mi.jpg" medium="image" />
+            <category term="出行"/>
             <category term="real"/>
-            <category term="outing"/>
 
         <updated>2023-07-11T09:09:30+08:00</updated>
             <summary>
@@ -492,8 +492,8 @@ Options:
         <link href="https://ct-choochoo.github.io/ch-publii-pages/mockito-zhong-wen-wen-dang-zhuan-zai/"/>
         <id>https://ct-choochoo.github.io/ch-publii-pages/mockito-zhong-wen-wen-dang-zhuan-zai/</id>
         <media:content url="https://ct-choochoo.github.io/ch-publii-pages/media/posts/23/Xin-Ming-Zi-98.jpg" medium="image" />
+            <category term="常用"/>
             <category term="java"/>
-            <category term="common"/>
 
         <updated>2023-03-29T00:20:54+08:00</updated>
             <summary>
@@ -1345,8 +1345,8 @@ public class BaiduTranslateApi {
         <link href="https://ct-choochoo.github.io/ch-publii-pages/dao-cheng-ya-ding/"/>
         <id>https://ct-choochoo.github.io/ch-publii-pages/dao-cheng-ya-ding/</id>
         <media:content url="https://ct-choochoo.github.io/ch-publii-pages/media/posts/12/Xin-Ming-Zi-77.jpg" medium="image" />
+            <category term="出行"/>
             <category term="real"/>
-            <category term="outing"/>
 
         <updated>2023-03-29T00:03:29+08:00</updated>
             <summary></summary>
