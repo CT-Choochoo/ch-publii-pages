@@ -18,7 +18,7 @@
         <id>https://ct-choochoo.github.io/ch-publii-pages/yuan-xiao-jie/</id>
             <category term="出行"/>
 
-        <updated>2024-02-29T20:36:14+08:00</updated>
+        <updated>2024-02-29T19:56:35+08:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -85,7 +85,7 @@
             <category term="出行"/>
             <category term="real"/>
 
-        <updated>2024-02-23T16:39:58+08:00</updated>
+        <updated>2023-08-22T12:14:51+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/38/IMG_5545.jpeg" alt="" />
@@ -218,7 +218,7 @@
         <media:content url="https://ct-choochoo.github.io/ch-publii-pages/media/posts/33/IMG_9807.png" medium="image" />
             <category term="常用"/>
 
-        <updated>2023-07-14T13:35:01+08:00</updated>
+        <updated>2023-07-14T10:44:43+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/33/IMG_9807.png" alt="" />
@@ -229,21 +229,13 @@
             <![CDATA[
                     <p><img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/33/IMG_9807.png" class="type:primaryImage" alt="" /></p>
                 <h3 id="1-下载指定官方包">1. 下载指定官方包</h3>
-<p>这里以群晖+系统7.2  X86为例</p>
-<p><a href="https://github.com/MediaBrowser/Emby.Releases/releases">https://github.com/MediaBrowser/Emby.Releases/releases</a> </p>
-<p><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202307141035374.png" alt="image-20230714103519265"  data-is-external-image="true"></figure></p>
-<h3 id="2-手动安装软件包">2. 手动安装软件包</h3>
-<p>群晖套件中心手动安装软件包 略过</p>
-<h3 id="3-破解">3. 破解</h3>
+<p>这里以群晖+系统7.2  X86为例</p><p><a href="https://github.com/MediaBrowser/Emby.Releases/releases">https://github.com/MediaBrowser/Emby.Releases/releases</a> </p><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202307141035374.png" alt="image-20230714103519265"  data-is-external-image="true"></figure><h3 id="2-手动安装软件包">2. 手动安装软件包</h3>
+<p>群晖套件中心手动安装软件包 略过</p><h3 id="3-破解">3. 破解</h3>
 <ol>
-<li><p>停用emby</p>
-</li>
-<li><p>连接群晖SSH</p>
-</li>
-<li><p>使用切换到root权限,打开[/var/packages/EmbyServer/target/system]文件夹</p>
-</li>
-<li><p>创建文件run.sh ,写入内容如下:</p>
-<pre><code class="language-shell">echo &quot;-------------------web 端开心-------------------&quot;
+<li><p>停用emby</p></li>
+<li><p>连接群晖SSH</p></li>
+<li><p>使用切换到root权限,打开[/var/packages/EmbyServer/target/system]文件夹</p></li>
+<li><p>创建文件run.sh ,写入内容如下:</p><pre><code class="language-shell">echo &quot;-------------------web 端开心-------------------&quot;
 echo &quot;使用脚本前，请先进入到 emby 的 system 目录下&quot;
 echo &quot;官方包直接安装的路径为：cd /opt/emby-server/system/&quot;
 echo &quot;&quot;
@@ -269,11 +261,9 @@ echo &quot;Implementations 替换认证...&quot;
 </code></pre>
 </li>
 </ol>
-<p>5.运行run.sh </p>
-<pre><code class="language-shell">bash run.sh
+<p>5.运行run.sh </p><pre><code class="language-shell">bash run.sh
 </code></pre>
 <p>6.等待运行结束,启动emby,如果没有图标显示清楚缓存刷新一次</p>
-
             ]]>
         </content>
     </entry>
@@ -286,7 +276,7 @@ echo &quot;Implementations 替换认证...&quot;
         <id>https://ct-choochoo.github.io/ch-publii-pages/ju-he-yin-le-xia-zai/</id>
         <media:content url="https://ct-choochoo.github.io/ch-publii-pages/media/posts/32/NIMURA-tribute-to-NIRVANA.jpg" medium="image" />
 
-        <updated>2023-07-11T19:48:31+08:00</updated>
+        <updated>2023-06-29T16:04:14+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/32/NIMURA-tribute-to-NIRVANA.jpg" alt="" />
@@ -296,8 +286,7 @@ echo &quot;Implementations 替换认证...&quot;
         <content type="html">
             <![CDATA[
                     <p><img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/32/NIMURA-tribute-to-NIRVANA.jpg" class="type:primaryImage" alt="" /></p>
-                <p>项目地址 : <a href="https://github.com/0xHJK/music-dl">https://github.com/0xHJK/music-dl</a></p>
-<h3 id="1-安装方式">1. 安装方式</h3>
+                <p>项目地址 : <a href="https://github.com/0xHJK/music-dl">https://github.com/0xHJK/music-dl</a></p><h3 id="1-安装方式">1. 安装方式</h3>
 <h4 id="11-pip安装（推荐，注意前面有一个py）：">1.1 pip安装（推荐，注意前面有一个<code>py</code>）：</h4>
 <pre><code>$ pip3 install pymusic-dl
 </code></pre>
@@ -336,8 +325,7 @@ Options:
   --nomerge             不对搜索结果列表排序和去重
   --help                Show this message and exit.
 </code></pre>
-<p><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202306291213398.png" alt="image-20230629121326813"  data-is-external-image="true"></figure></p>
-
+<figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202306291213398.png" alt="image-20230629121326813"  data-is-external-image="true"></figure>
             ]]>
         </content>
     </entry>
@@ -351,7 +339,7 @@ Options:
         <media:content url="https://ct-choochoo.github.io/ch-publii-pages/media/posts/30/kurinkohunoTVCMnoirasutowoDan-Dang-saseteitatakimasita.-Jiu-Zhou-Zhong-Guo-Si-Guo-eriaYi-Bu-woChu-kuteBen-Ri-karaFang-Ying-sareteirutonokoto.-Pu-noirasutowomotonianimetasan.jpg" medium="image" />
             <category term="develop"/>
 
-        <updated>2023-06-28T10:27:25+08:00</updated>
+        <updated>2023-04-12T11:16:10+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/30/kurinkohunoTVCMnoirasutowoDan-Dang-saseteitatakimasita.-Jiu-Zhou-Zhong-Guo-Si-Guo-eriaYi-Bu-woChu-kuteBen-Ri-karaFang-Ying-sareteirutonokoto.-Pu-noirasutowomotonianimetasan.jpg" alt="" />
@@ -362,49 +350,32 @@ Options:
             <![CDATA[
                     <p><img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/30/kurinkohunoTVCMnoirasutowoDan-Dang-saseteitatakimasita.-Jiu-Zhou-Zhong-Guo-Si-Guo-eriaYi-Bu-woChu-kuteBen-Ri-karaFang-Ying-sareteirutonokoto.-Pu-noirasutowomotonianimetasan.jpg" class="type:primaryImage" alt="" /></p>
                 <blockquote>
-<p> <code>publii</code>目前暂不支持单篇文章加密，使用密码访问文章的功能。 开发者推荐隐藏文章，然后使用私有的链接访问，这种方式很不方便. 理想状态应该是页面正常渲染在主页 ，我可以对指定文章加密，并设置密码。寻找了几个开源的静态网页加密工具。</p>
-</blockquote>
+<p> <code>publii</code>目前暂不支持单篇文章加密，使用密码访问文章的功能。 开发者推荐隐藏文章，然后使用私有的链接访问，这种方式很不方便. 理想状态应该是页面正常渲染在主页 ，我可以对指定文章加密，并设置密码。寻找了几个开源的静态网页加密工具。</p></blockquote>
 <h2 id="1-hugo-encryptor">1. Hugo Encryptor</h2>
 <ul>
-<li><p>Domain:<a href="https://github.com/Li4n0/hugo_encryptor">https://github.com/Li4n0/hugo_encryptor</a></p>
-</li>
-<li><p>演示效果:<a href="https://0n0.fun/post/2019/03/this-is-hugo-encryptor/">https://0n0.fun/post/2019/03/this-is-hugo-encryptor/</a></p>
-</li>
-<li><p>类似的工具:<a href="https://github.com/D0n9X1n/hexo-blog-encrypt">https://github.com/D0n9X1n/hexo-blog-encrypt</a></p>
-</li>
+<li><p>Domain:<a href="https://github.com/Li4n0/hugo_encryptor">https://github.com/Li4n0/hugo_encryptor</a></p></li>
+<li><p>演示效果:<a href="https://0n0.fun/post/2019/03/this-is-hugo-encryptor/">https://0n0.fun/post/2019/03/this-is-hugo-encryptor/</a></p></li>
+<li><p>类似的工具:<a href="https://github.com/D0n9X1n/hexo-blog-encrypt">https://github.com/D0n9X1n/hexo-blog-encrypt</a></p></li>
 </ul>
 <blockquote>
-<p>简介: <strong>Hugo-Encryptor</strong> 是一款能够帮助作者保护文章内容的工具。它使用 AES-256 来对文章的内容进行加密，并且通过在文章中嵌入内联 <code>JavaScript</code> 代码来验证读者输入的密码是否正确。没有正确的文章密码，读者将无法看到文章的加密内容。</p>
-</blockquote>
-<p><code>优点是可以加密文章指定内容</code></p>
-<p><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202304121104007.png" alt="image-20230412110404943"  data-is-external-image="true"></figure></p>
-<h2 id="2-pagecrypt">2. pagecrypt</h2>
+<p>简介: <strong>Hugo-Encryptor</strong> 是一款能够帮助作者保护文章内容的工具。它使用 AES-256 来对文章的内容进行加密，并且通过在文章中嵌入内联 <code>JavaScript</code> 代码来验证读者输入的密码是否正确。没有正确的文章密码，读者将无法看到文章的加密内容。</p></blockquote>
+<p><code>优点是可以加密文章指定内容</code></p><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202304121104007.png" alt="image-20230412110404943"  data-is-external-image="true"></figure><h2 id="2-pagecrypt">2. pagecrypt</h2>
 <ul>
-<li><p>Domain:<a href="https://github.com/MaxLaumeister/pagecrypt/tree/master/python">https://github.com/MaxLaumeister/pagecrypt/tree/master/python</a></p>
-</li>
-<li><p>演示效果:<a href="https://www.maxlaumeister.com/pagecrypt/">https://www.maxlaumeister.com/pagecrypt/</a></p>
-</li>
-<li><p>介绍页:<a href="https://render.com/blog/static-site-auth-pagecrypt">https://render.com/blog/static-site-auth-pagecrypt</a></p>
-</li>
-<li><p>类似的工具:<a href="https://github.com/robinmoisson/staticrypt">https://github.com/robinmoisson/staticrypt</a></p>
-</li>
+<li><p>Domain:<a href="https://github.com/MaxLaumeister/pagecrypt/tree/master/python">https://github.com/MaxLaumeister/pagecrypt/tree/master/python</a></p></li>
+<li><p>演示效果:<a href="https://www.maxlaumeister.com/pagecrypt/">https://www.maxlaumeister.com/pagecrypt/</a></p></li>
+<li><p>介绍页:<a href="https://render.com/blog/static-site-auth-pagecrypt">https://render.com/blog/static-site-auth-pagecrypt</a></p></li>
+<li><p>类似的工具:<a href="https://github.com/robinmoisson/staticrypt">https://github.com/robinmoisson/staticrypt</a></p></li>
 </ul>
 <blockquote>
-<p>简介:<a href="https://github.com/Greenheart/pagecrypt">PageCrypt</a>是一种新颖的密码保护解决方案，无需后端即可保护 HTML。它是一个库，您可以将其用作站点构建步骤的一部分或用作命令行工具。它使用<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">Web Crypto API</a>（目前<a href="https://caniuse.com/cryptography">所有主要浏览器都支持</a>）和密码来加密 HTML 页面，然后您可以在任何静态托管平台上托管该页面，包括 Render！使用 PageCrypt 加密的 HTML 页面会提示查看者输入密码。输入正确的密码后，页面将被解密，其内容将替换密码提示</p>
-</blockquote>
-<p><code>貌似只能对整个页面加密</code></p>
-<h2 id="image-20230412110543963"><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202304121120566.png" alt="image-20230412110543963"  data-is-external-image="true"></figure></h2>
+<p>简介:<a href="https://github.com/Greenheart/pagecrypt">PageCrypt</a>是一种新颖的密码保护解决方案，无需后端即可保护 HTML。它是一个库，您可以将其用作站点构建步骤的一部分或用作命令行工具。它使用<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">Web Crypto API</a>（目前<a href="https://caniuse.com/cryptography">所有主要浏览器都支持</a>）和密码来加密 HTML 页面，然后您可以在任何静态托管平台上托管该页面，包括 Render！使用 PageCrypt 加密的 HTML 页面会提示查看者输入密码。输入正确的密码后，页面将被解密，其内容将替换密码提示</p></blockquote>
+<p><code>貌似只能对整个页面加密</code></p><h2 id="image-20230412110543963"><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202304121120566.png" alt="image-20230412110543963"  data-is-external-image="true"></figure></h2>
 <h2 id="3-staticshield-docs">3. staticshield-docs</h2>
 <ul>
 <li>Domain:<a href="https://github.com/lalit2005/staticshield">https://github.com/lalit2005/staticshield</a></li>
 </ul>
 <blockquote>
-<p> StaticShield 是<strong>密码保护网站的最简单方法</strong>。无论是静态的还是动态的，您只需要一行代码就可以保护您的应用程序。真的吗！！只需要<strong>一行代码</strong><code>head</code>的文件！StaticShield 可以轻松地与您选择的任何喜欢的框架一起使用。无论是优秀的 HTML 还是现代的 Nextjs，一切都像魔术一样工作。您可以为用户设置过期时间，以便在一段时间后自动注销，或者您可以在任何给定时间点以编程方式注销用户。哦，我怎么忘了这个 - 安全。由于 StaticShield 必须处理保护敏感内容的问题，因此我将安全放在首位。我采取了一些安全措施，我既没有看到也没有听说过有人对他们的应用程序这样做。阅读更多以找出答案！我想这介绍太多了，让我们深入了解</p>
-</blockquote>
-<p><code>staticshield 会同时提供一个管理页面,查看通过密码访问的次数</code></p>
-<p><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202304121113024.png" alt="image-20230412111336987"  data-is-external-image="true"></figure></p>
-<p><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202304121114469.png" alt="image-20230412111453438"  data-is-external-image="true"></figure></p>
-
+<p> StaticShield 是<strong>密码保护网站的最简单方法</strong>。无论是静态的还是动态的，您只需要一行代码就可以保护您的应用程序。真的吗！！只需要<strong>一行代码</strong><code>head</code>的文件！StaticShield 可以轻松地与您选择的任何喜欢的框架一起使用。无论是优秀的 HTML 还是现代的 Nextjs，一切都像魔术一样工作。您可以为用户设置过期时间，以便在一段时间后自动注销，或者您可以在任何给定时间点以编程方式注销用户。哦，我怎么忘了这个 - 安全。由于 StaticShield 必须处理保护敏感内容的问题，因此我将安全放在首位。我采取了一些安全措施，我既没有看到也没有听说过有人对他们的应用程序这样做。阅读更多以找出答案！我想这介绍太多了，让我们深入了解</p></blockquote>
+<p><code>staticshield 会同时提供一个管理页面,查看通过密码访问的次数</code></p><figure class="post__image"><img decoding="async" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202304121113024.png" alt="image-20230412111336987"  data-is-external-image="true"></figure><figure class="post__image"><img decoding="async" loading="lazy" src="https://img-boo.oss-cn-chengdu.aliyuncs.com/markdown/img/202304121114469.png" alt="image-20230412111453438"  data-is-external-image="true"></figure>
             ]]>
         </content>
     </entry>
@@ -419,7 +390,7 @@ Options:
             <category term="出行"/>
             <category term="real"/>
 
-        <updated>2023-07-11T09:09:30+08:00</updated>
+        <updated>2023-03-30T00:20:45+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/28/milan.deyy-Photo-shared-by-KitBash3D-on-December-04-2021-tagging-mi.jpg" alt="" />
@@ -560,7 +531,7 @@ Options:
             <category term="常用"/>
             <category term="java"/>
 
-        <updated>2023-03-29T00:20:54+08:00</updated>
+        <updated>2023-03-23T23:50:27+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/23/Xin-Ming-Zi-98.jpg" alt="" />
@@ -609,15 +580,11 @@ Options:
 <li><a href="#35">自定义验证失败消息 (2.0.0版本之后)</a></li>
 </ol>
 <h2 id="0-迁移到-mockito-20">0. 迁移到 Mockito 2.0</h2>
-<p>为了持续提升 Mockito 以及更进一步的提升单元测试体验，我们希望你升级到 Mockito 2.1.0。Mockito 遵循语意化的版本控制，除非有非常大的改变才会变化主版本号。在一个库的生命周期中，为了引入一系列有用的特性，修改已存在的行为或者 API 等重大变更是在所难免的。有关新版本（包括不兼容的更改）的全面指南，请参阅”Mockito 2” <a href="https://github.com/mockito/mockito/wiki/What's-new-in-Mockito-2">wiki 页面</a>中的 “What’s new in Mockito 2”。我们希望你能够喜欢 Mockito 2.0!</p>
-<p>0.1. Mockito Android support
-With Mockito version 2.6.1 we ship “native” Android support. To enable Android support, add the <code>mockito-android</code> library as dependency to your project. This artifact is published to the same Mockito organization and can be imported for Android as follows: You can continue to run the same unit tests on a regular VM by using the <code>mockito-core</code> artifact in your “testCompile” scope as shown above. Be aware that you cannot use the inline mock maker on Android due to limitations in the Android VM. If you encounter issues with mocking on Android, please open an issue on the official issue tracker. Do provide the version of Android you are working on and dependencies of your project.</p>
-<p>0.2. Configuration-free inline mock making
+<p>为了持续提升 Mockito 以及更进一步的提升单元测试体验，我们希望你升级到 Mockito 2.1.0。Mockito 遵循语意化的版本控制，除非有非常大的改变才会变化主版本号。在一个库的生命周期中，为了引入一系列有用的特性，修改已存在的行为或者 API 等重大变更是在所难免的。有关新版本（包括不兼容的更改）的全面指南，请参阅”Mockito 2” <a href="https://github.com/mockito/mockito/wiki/What's-new-in-Mockito-2">wiki 页面</a>中的 “What’s new in Mockito 2”。我们希望你能够喜欢 Mockito 2.0!</p><p>0.1. Mockito Android support
+With Mockito version 2.6.1 we ship “native” Android support. To enable Android support, add the <code>mockito-android</code> library as dependency to your project. This artifact is published to the same Mockito organization and can be imported for Android as follows: You can continue to run the same unit tests on a regular VM by using the <code>mockito-core</code> artifact in your “testCompile” scope as shown above. Be aware that you cannot use the inline mock maker on Android due to limitations in the Android VM. If you encounter issues with mocking on Android, please open an issue on the official issue tracker. Do provide the version of Android you are working on and dependencies of your project.</p><p>0.2. Configuration-free inline mock making
 Starting with version 2.7.6, we offer the ‘mockito-inline’ artifact that enables inline mock making without configuring the MockMaker extension file. To use this, add the <code>mockito-inline</code> instead of the <code>mockito-core</code> artifact as follows: Be aware that this artifact may be abolished when the inline mock making feature is integrated into the default mock maker.
-<b id="0"></b></p>
-<h2 id="1-验证某些行为">1. 验证某些行为</h2>
-<p>跟着我们的示例来 mock 一个 List，因为大家对 List 接口很熟悉（例如 add(),get(), clear()）。事实上，不要 mock List 接口本身,而要使用 List 的一个实例来替代。</p>
-<pre><code class="language-java">// 静态导入会使代码更简洁
+<b id="0"></b></p><h2 id="1-验证某些行为">1. 验证某些行为</h2>
+<p>跟着我们的示例来 mock 一个 List，因为大家对 List 接口很熟悉（例如 add(),get(), clear()）。事实上，不要 mock List 接口本身,而要使用 List 的一个实例来替代。</p><pre><code class="language-java">// 静态导入会使代码更简洁
 import static org.mockito.Mockito.*;
 
 // 创建 mock 对象
@@ -632,8 +599,7 @@ verify(mockedList).add(&quot;one&quot;);
 verify(mockedList).clear();
 </code></pre>
 <p>一旦 mock 对象被创建了，mock 对象会记住所有的交互。然后你就可能选择性地验证你感兴趣的交互。
-<b id="1"></b></p>
-<h2 id="2-如何做一些测试桩-stub">2. 如何做一些测试桩 (Stub)</h2>
+<b id="1"></b></p><h2 id="2-如何做一些测试桩-stub">2. 如何做一些测试桩 (Stub)</h2>
 <pre><code class="language-java">// 你可以 mock 具体的类型，不仅只是接口
 LinkedList mockedList = mock(LinkedList.class);
 
@@ -664,8 +630,7 @@ verify(mockedList).get(0);
 <b id="2"></b></li>
 </ul>
 <h2 id="3-参数匹配器-matchers">3. 参数匹配器 (matchers)</h2>
-<p>Mockito 以自然的 java 风格来验证参数值: 使用 equals() 函数。有时当需要额外的灵活性时你可能需要使用参数匹配器 argument matchers :</p>
-<pre><code class="language-java">// 使用内置的 anyInt() 参数匹配器
+<p>Mockito 以自然的 java 风格来验证参数值: 使用 equals() 函数。有时当需要额外的灵活性时你可能需要使用参数匹配器 argument matchers :</p><pre><code class="language-java">// 使用内置的 anyInt() 参数匹配器
 when(mockedList.get(anyInt())).thenReturn(&quot;element&quot;);
 
 // 使用自定义的参数匹配器( 在isValid() 函数中返回你自己的匹配器实现 )
@@ -677,24 +642,16 @@ System.out.println(mockedList.get(999));
 // 你也可以验证参数匹配器
 verify(mockedList).get(anyInt());
 </code></pre>
-<p>参数匹配器使验证和测试桩变得更灵活。<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Matchers.html">点击这里</a>查看更多内置的匹配器以及自定义参数匹配器或者 hamcrest 匹配器的示例。</p>
-<p>如果仅仅是获取自定义参数匹配器的信息，查看<a href="http://site.mockito.org/mockito/docs/current/org/mockito/ArgumentMatcher.html">ArgumentMatcher类文档</a>即可。</p>
-<p>为了合理的使用复杂的参数匹配，使用 equals() 与 anyX() 的匹配器会使得测试代码更简洁、简单。
+<p>参数匹配器使验证和测试桩变得更灵活。<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Matchers.html">点击这里</a>查看更多内置的匹配器以及自定义参数匹配器或者 hamcrest 匹配器的示例。</p><p>如果仅仅是获取自定义参数匹配器的信息，查看<a href="http://site.mockito.org/mockito/docs/current/org/mockito/ArgumentMatcher.html">ArgumentMatcher类文档</a>即可。</p><p>为了合理的使用复杂的参数匹配，使用 equals() 与 anyX() 的匹配器会使得测试代码更简洁、简单。
 有时，会迫使你重构代码以使用 equals() 匹配或者实现 equals() 函数来帮助你进行测试。
-同时建议你阅读<a href="#15">第15章节</a>或者<a href="http://site.mockito.org/mockito/docs/current/org/mockito/ArgumentCaptor.html">ArgumentCaptor类文档</a>。ArgumentCaptor 是一个能够捕获参数值的特殊参数匹配器。</p>
-<p>参数匹配器的注意点 :</p>
-<p>如果你使用参数匹配器，所有参数都必须由匹配器提供。</p>
-<p>示例 : ( 该示例展示了如何多次应用于测试桩函数的验证 )</p>
-<pre><code class="language-java">verify(mock).someMethod(anyInt(), anyString(), eq(&quot;third argument&quot;));
+同时建议你阅读<a href="#15">第15章节</a>或者<a href="http://site.mockito.org/mockito/docs/current/org/mockito/ArgumentCaptor.html">ArgumentCaptor类文档</a>。ArgumentCaptor 是一个能够捕获参数值的特殊参数匹配器。</p><p>参数匹配器的注意点 :</p><p>如果你使用参数匹配器，所有参数都必须由匹配器提供。</p><p>示例 : ( 该示例展示了如何多次应用于测试桩函数的验证 )</p><pre><code class="language-java">verify(mock).someMethod(anyInt(), anyString(), eq(&quot;third argument&quot;));
 // 上述代码是正确的，因为 eq() 也是一个参数匹配器
 
 verify(mock).someMethod(anyInt(), anyString(), &quot;third argument&quot;);
 // 上述代码是错误的，因为所有参数必须由匹配器提供，而参数 &quot;third argument&quot; 并非由参数匹配器提供，因此会抛出异常
 </code></pre>
 <p>像 anyObject(), eq() 这样的匹配器函数不会返回匹配器。它们会在内部将匹配器记录到一个栈当中，并且返回一个假的值，通常为null。
-<code>这样的实现是由于被Java编译器强加的静态类型安全</code>。结果就是你不能在验证或者测试桩函数之外使用 anyObject(), eq() 函数。</p>
-<p><b id="3"></b></p>
-<h2 id="4-验证函数的确切、最少、从未调用次数">4. 验证函数的确切、最少、从未调用次数</h2>
+<code>这样的实现是由于被Java编译器强加的静态类型安全</code>。结果就是你不能在验证或者测试桩函数之外使用 anyObject(), eq() 函数。</p><p><b id="3"></b></p><h2 id="4-验证函数的确切、最少、从未调用次数">4. 验证函数的确切、最少、从未调用次数</h2>
 <pre><code class="language-java">mockedList.add(&quot;once&quot;);
 
 mockedList.add(&quot;twice&quot;);
@@ -721,17 +678,13 @@ verify(mockedList, atLeastOnce()).add(&quot;three times&quot;);
 verify(mockedList, atLeast(2)).add(&quot;five times&quot;);
 verify(mockedList, atMost(5)).add(&quot;three times&quot;);
 </code></pre>
-<p>verify 函数默认验证的是执行了 times(1)，也就是某个测试函数是否执行了 1 次。因此，times(1) 通常被省略了。</p>
-<p><b id="4"></b></p>
-<h2 id="5-为返回值为void的函数通过stub抛出异常">5. 为返回值为void的函数通过Stub抛出异常</h2>
+<p>verify 函数默认验证的是执行了 times(1)，也就是某个测试函数是否执行了 1 次。因此，times(1) 通常被省略了。</p><p><b id="4"></b></p><h2 id="5-为返回值为void的函数通过stub抛出异常">5. 为返回值为void的函数通过Stub抛出异常</h2>
 <pre><code class="language-java">doThrow(new RuntimeException()).when(mockedList).clear();
 
 // 调用这句代码会抛出异常
 mockedList.clear();
 </code></pre>
-<p>关于 doThrow | doAnswer 等函数的信息请阅读<a href="#12">第 12 节</a>。</p>
-<p><b id="5"></b></p>
-<h2 id="6-验证执行执行顺序">6. 验证执行执行顺序</h2>
+<p>关于 doThrow | doAnswer 等函数的信息请阅读<a href="#12">第 12 节</a>。</p><p><b id="5"></b></p><h2 id="6-验证执行执行顺序">6. 验证执行执行顺序</h2>
 <pre><code class="language-java">// A. 验证 mock 一个对象的函数执行顺序
 List singleMock = mock(List.class);
 
@@ -764,9 +717,7 @@ inOrder.verify(secondMock).add(&quot;was called second&quot;);
 // A 和 B 可以按照你的意愿组合在一起
 </code></pre>
 <p>验证执行顺序是非常灵活的：你不需要一个一个的验证所有交互，只需要验证你感兴趣的对象即可。
-另外，你可以仅通过那些需要验证顺序的 mock 对象来创建 InOrder 对象。</p>
-<p><b id="6"></b></p>
-<h2 id="7-确保交互interaction操作不会执行在-mock-对象上">7. 确保交互(interaction)操作不会执行在 mock 对象上</h2>
+另外，你可以仅通过那些需要验证顺序的 mock 对象来创建 InOrder 对象。</p><p><b id="6"></b></p><h2 id="7-确保交互interaction操作不会执行在-mock-对象上">7. 确保交互(interaction)操作不会执行在 mock 对象上</h2>
 <pre><code class="language-java">// 使用 Mock 对象
 mockOne.add(&quot;one&quot;);
 
@@ -779,8 +730,7 @@ verify(mockOne, never()).add(&quot;two&quot;);
 // 验证 mock 对象没有交互过
 verifyZeroInteractions(mockTwo, mockThree);
 </code></pre>
-<p><b id="7"></b></p>
-<h2 id="8-查找冗余的调用">8. 查找冗余的调用</h2>
+<p><b id="7"></b></p><h2 id="8-查找冗余的调用">8. 查找冗余的调用</h2>
 <pre><code class="language-java">// 使用 mock
 mockedList.add(&quot;one&quot;);
 mockedList.add(&quot;two&quot;);
@@ -790,10 +740,7 @@ verify(mockedList).add(&quot;one&quot;);
 // 下面的验证将会失败
 verifyNoMoreInteractions(mockedList);
 </code></pre>
-<p>一些用户可能会在频繁地使用 <code>verifyNoMoreInteractions()</code>，甚至在每个测试函数中都用。但是 <code>verifyNoMoreInteractions()</code> 并不建议在每个测试函数中都使用。<code>verifyNoMoreInteractions()</code> 在交互测试套件中只是一个便利的验证，它的作用是当你需要验证是否存在冗余调用时。滥用它将导致测试代码的可维护性降低。</p>
-<p><code>never()</code> 是一种更为明显且易于理解的形式。</p>
-<p><b id="8"></b></p>
-<h2 id="9-简化-mock-对象的创建---mock-注解">9. 简化 mock 对象的创建 - @Mock 注解</h2>
+<p>一些用户可能会在频繁地使用 <code>verifyNoMoreInteractions()</code>，甚至在每个测试函数中都用。但是 <code>verifyNoMoreInteractions()</code> 并不建议在每个测试函数中都使用。<code>verifyNoMoreInteractions()</code> 在交互测试套件中只是一个便利的验证，它的作用是当你需要验证是否存在冗余调用时。滥用它将导致测试代码的可维护性降低。</p><p><code>never()</code> 是一种更为明显且易于理解的形式。</p><p><b id="8"></b></p><h2 id="9-简化-mock-对象的创建---mock-注解">9. 简化 mock 对象的创建 - @Mock 注解</h2>
 <ul>
 <li>最小化重复的创建代码</li>
 <li>使测试类的代码可读性更高</li>
@@ -807,18 +754,14 @@ verifyNoMoreInteractions(mockedList);
 
    private ArticleManager manager;
 </code></pre>
-<p>注意！下面这句代码需要在运行测试函数之前被调用，一般放到测试类的基类或者 test runner 中:</p>
-<pre><code class="language-java">MockitoAnnotations.initMocks(testClass);
+<p>注意！下面这句代码需要在运行测试函数之前被调用，一般放到测试类的基类或者 test runner 中:</p><pre><code class="language-java">MockitoAnnotations.initMocks(testClass);
 </code></pre>
 <p>你可以使用内置的 runner: [MockitoJUnitRunner] [runner] 或者一个 rule : <a href="http://site.mockito.org/mockito/docs/current/org/mockito/junit/MockitoJUnit.html#rule()">MockitoRule</a>。
 对于 JUnit5 测试，在 45 节有描述。
-关于 mock 注解的更多信息可以阅读 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockitoAnnotations.html">MockitoAnnotations文档</a>。</p>
-<p><b id="9"></b></p>
-<h2 id="10-为连续的调用做测试桩-stub">10. 为连续的调用做测试桩 (stub)</h2>
+关于 mock 注解的更多信息可以阅读 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockitoAnnotations.html">MockitoAnnotations文档</a>。</p><p><b id="9"></b></p><h2 id="10-为连续的调用做测试桩-stub">10. 为连续的调用做测试桩 (stub)</h2>
 <p>有时我们需要为同一个函数调用的不同的返回值或异常做测试桩。典型的运用就是使用 mock 迭代器。
 原始版本的 Mockito 并没有这个特性，例如，可以使用 Iterable 或者简单的集合来替换迭代器。这些方法提供了更原始的方式。
-在一些场景中为连续的调用做测试桩会很有用。示例如下 ：</p>
-<pre><code class="language-java">when(mock.someMethod(&quot;some arg&quot;))
+在一些场景中为连续的调用做测试桩会很有用。示例如下 ：</p><pre><code class="language-java">when(mock.someMethod(&quot;some arg&quot;))
   .thenThrow(new RuntimeException())
   .thenReturn(&quot;foo&quot;);
 
@@ -831,17 +774,13 @@ System.out.println(mock.someMethod(&quot;some arg&quot;));
 // 后续调用 : 也是输出 &quot;foo&quot;
 System.out.println(mock.someMethod(&quot;some arg&quot;));
 </code></pre>
-<p>另外，连续调用的另一种更简短的版本 :</p>
-<pre><code class="language-java">// 第一次调用时返回 &quot;one&quot;，第二次返回 &quot;two&quot;，第三次返回 &quot;three&quot;
+<p>另外，连续调用的另一种更简短的版本 :</p><pre><code class="language-java">// 第一次调用时返回 &quot;one&quot;，第二次返回 &quot;two&quot;，第三次返回 &quot;three&quot;
  when(mock.someMethod(&quot;some arg&quot;))
    .thenReturn(&quot;one&quot;, &quot;two&quot;, &quot;three&quot;);
 </code></pre>
-<p><b id="10"></b></p>
-<h2 id="11-为回调做测试桩">11. 为回调做测试桩</h2>
+<p><b id="10"></b></p><h2 id="11-为回调做测试桩">11. 为回调做测试桩</h2>
 <p>Allows stubbing with generic Answer interface.
-运行为泛型接口 Answer 打桩。</p>
-<p>在最初的Mockito里也没有这个具有争议性的特性。我们建议使用thenReturn() 或thenThrow()来打桩。这两种方法足够用于测试或者测试驱动开发。</p>
-<pre><code class="language-java">when(mock.someMethod(anyString())).thenAnswer(new Answer() {
+运行为泛型接口 Answer 打桩。</p><p>在最初的Mockito里也没有这个具有争议性的特性。我们建议使用thenReturn() 或thenThrow()来打桩。这两种方法足够用于测试或者测试驱动开发。</p><pre><code class="language-java">when(mock.someMethod(anyString())).thenAnswer(new Answer() {
     Object answer(InvocationOnMock invocation) {
         Object[] args = invocation.getArguments();
         Object mock = invocation.getMock();
@@ -853,26 +792,19 @@ System.out.println(mock.someMethod(&quot;some arg&quot;));
 // 输出 : &quot;called with arguments: foo&quot;
 System.out.println(mock.someMethod(&quot;foo&quot;));
 </code></pre>
-<p><b id="11"></b></p>
-<h2 id="12-doreturn、dothrow、doanswer、donothing、docallrealmethod系列方法的运用">12. doReturn()、doThrow()、doAnswer()、doNothing()、doCallRealMethod()系列方法的运用</h2>
-<p>通过<code>when(Object)</code>为无返回值的函数打桩有不同的方法,因为编译器不喜欢void函数在括号内…</p>
-<p>使用<code>doThrow(Throwable)</code> 替换<code>stubVoid(Object)</code>来为void函数打桩是为了与<code>doAnswer()</code>等函数族保持一致性。</p>
-<p>当你想为void函数打桩时使用含有一个exception 参数的<code>doAnswer()</code> :</p>
-<pre><code class="language-java">doThrow(new RuntimeException()).when(mockedList).clear();
+<p><b id="11"></b></p><h2 id="12-doreturn、dothrow、doanswer、donothing、docallrealmethod系列方法的运用">12. doReturn()、doThrow()、doAnswer()、doNothing()、doCallRealMethod()系列方法的运用</h2>
+<p>通过<code>when(Object)</code>为无返回值的函数打桩有不同的方法,因为编译器不喜欢void函数在括号内…</p><p>使用<code>doThrow(Throwable)</code> 替换<code>stubVoid(Object)</code>来为void函数打桩是为了与<code>doAnswer()</code>等函数族保持一致性。</p><p>当你想为void函数打桩时使用含有一个exception 参数的<code>doAnswer()</code> :</p><pre><code class="language-java">doThrow(new RuntimeException()).when(mockedList).clear();
 
 //following throws RuntimeException:
 // 下面的代码会抛出异常
 mockedList.clear();
 </code></pre>
-<p>当你调用<code>doThrow()</code>, <code>doAnswer()</code>, <code>doNothing()</code>, <code>doReturn()</code> and <code>doCallRealMethod()</code> 这些函数时可以在适当的位置调用<code>when()</code>函数. 当你需要下面这些功能时这是必须的:</p>
-<ul>
+<p>当你调用<code>doThrow()</code>, <code>doAnswer()</code>, <code>doNothing()</code>, <code>doReturn()</code> and <code>doCallRealMethod()</code> 这些函数时可以在适当的位置调用<code>when()</code>函数. 当你需要下面这些功能时这是必须的:</p><ul>
 <li>测试void函数</li>
 <li>在受监控的对象上测试函数</li>
 <li>不知一次的测试为同一个函数，在测试过程中改变mock对象的行为。</li>
 </ul>
-<p>但是在调用<code>when()</code>函数时你可以选择是否调用这些上述这些函数。</p>
-<p>阅读更多关于这些方法的信息:</p>
-<ul>
+<p>但是在调用<code>when()</code>函数时你可以选择是否调用这些上述这些函数。</p><p>阅读更多关于这些方法的信息:</p><ul>
 <li><a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#doReturn(java.lang.Object)">doReturn(Object)</a></li>
 <li><a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#doThrow(java.lang.Throwable)">doThrow(Throwable)</a></li>
 <li><a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#doThrow(java.lang.Class)">doThrow(Class)</a></li>
@@ -880,11 +812,8 @@ mockedList.clear();
 <li><a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#doNothing()">doNothing()</a></li>
 <li><a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#doCallRealMethod()">doCallRealMethod()</a></li>
 </ul>
-<p><b id="12"></b></p>
-<h2 id="13-监控真实对象">13. 监控真实对象</h2>
-<p>你可以为真实对象创建一个监控(spy)对象。当你使用这个spy对象时真实的对象也会也调用，除非它的函数被stub了。尽量少使用spy对象，使用时也需要小心形式，例如spy对象可以用来处理遗留代码。</p>
-<p>监控一个真实的对象可以与“局部mock对象”概念结合起来。在1.8之前，mockito的监控功能并不是真正的局部mock对象。原因是我们认为局部mock对象的实现方式并不好，在某些时候我发现一些使用局部mock对象的合法用例。（第三方接口、临时重构遗留代码，完整的文章在<a href="http://monkeyisland.pl/2009/01/13/subclass-and-override-vs-partial-mocking-vs-refactoring/">这里</a> ）</p>
-<pre><code class="language-java">List list = new LinkedList();
+<p><b id="12"></b></p><h2 id="13-监控真实对象">13. 监控真实对象</h2>
+<p>你可以为真实对象创建一个监控(spy)对象。当你使用这个spy对象时真实的对象也会也调用，除非它的函数被stub了。尽量少使用spy对象，使用时也需要小心形式，例如spy对象可以用来处理遗留代码。</p><p>监控一个真实的对象可以与“局部mock对象”概念结合起来。在1.8之前，mockito的监控功能并不是真正的局部mock对象。原因是我们认为局部mock对象的实现方式并不好，在某些时候我发现一些使用局部mock对象的合法用例。（第三方接口、临时重构遗留代码，完整的文章在<a href="http://monkeyisland.pl/2009/01/13/subclass-and-override-vs-partial-mocking-vs-refactoring/">这里</a> ）</p><pre><code class="language-java">List list = new LinkedList();
 List spy = spy(list);
 
 //optionally, you can stub out some methods:
@@ -909,9 +838,7 @@ System.out.println(spy.size());
 verify(spy).add(&quot;one&quot;);
 verify(spy).add(&quot;two&quot;);
 </code></pre>
-<p>理解监控真实对象非常重要！</p>
-<p>有时，在监控对象上使用<code>when(Object)</code>来进行打桩是不可能或者不切实际的。因此，当使用监控对象时请考虑<code>doReturn|Answer|Throw()</code>函数族来进行打桩。例如 :</p>
-<pre><code class="language-java">List list = new LinkedList();
+<p>理解监控真实对象非常重要！</p><p>有时，在监控对象上使用<code>when(Object)</code>来进行打桩是不可能或者不切实际的。因此，当使用监控对象时请考虑<code>doReturn|Answer|Throw()</code>函数族来进行打桩。例如 :</p><pre><code class="language-java">List list = new LinkedList();
 List spy = spy(list);
 
 //Impossible: real method is called so spy.get(0) throws IndexOutOfBoundsException (the list is yet empty)
@@ -922,36 +849,25 @@ List spy = spy(list);
 // 你需要使用doReturn()来打桩
 doReturn(&quot;foo&quot;).when(spy).get(0);
 </code></pre>
-<p>Mockito并不会为真实对象代理函数调用，实际上它会拷贝真实对象。因此如果你保留了真实对象并且与之交互，不要期望从监控对象得到正确的结果。当你在监控对象上调用一个没有被stub的函数时并不会调用真实对象的对应函数，你不会在真实对象上看到任何效果。</p>
-<p>因此结论就是 : 当你在监控一个真实对象时，你想在stub这个真实对象的函数，那么就是在自找麻烦。或者你根本不应该验证这些函数。</p>
-<p><b id="13"></b></p>
-<h2 id="14-修改没有测试桩的调用的默认返回值--17版本之后-">14. 修改没有测试桩的调用的默认返回值 ( 1.7版本之后 )</h2>
-<p>你可以指定策略来创建mock对象的返回值。这是一个高级特性，通常来说，你不需要写这样的测试。然后，它对于遗留系统来说是很有用处的。当你不需要为函数调用打桩时你可以指定一个默认的answer。</p>
-<pre><code class="language-java">Foo mock = mock(Foo.class, Mockito.RETURNS_SMART_NULLS);
+<p>Mockito并不会为真实对象代理函数调用，实际上它会拷贝真实对象。因此如果你保留了真实对象并且与之交互，不要期望从监控对象得到正确的结果。当你在监控对象上调用一个没有被stub的函数时并不会调用真实对象的对应函数，你不会在真实对象上看到任何效果。</p><p>因此结论就是 : 当你在监控一个真实对象时，你想在stub这个真实对象的函数，那么就是在自找麻烦。或者你根本不应该验证这些函数。</p><p><b id="13"></b></p><h2 id="14-修改没有测试桩的调用的默认返回值--17版本之后-">14. 修改没有测试桩的调用的默认返回值 ( 1.7版本之后 )</h2>
+<p>你可以指定策略来创建mock对象的返回值。这是一个高级特性，通常来说，你不需要写这样的测试。然后，它对于遗留系统来说是很有用处的。当你不需要为函数调用打桩时你可以指定一个默认的answer。</p><pre><code class="language-java">Foo mock = mock(Foo.class, Mockito.RETURNS_SMART_NULLS);
 Foo mockTwo = mock(Foo.class, new YourOwnAnswer());
 </code></pre>
 <p>关于RETURNS_SMART_NULLS更多的信息请查看 :
-<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#RETURNS_SMART_NULLS">RETURNS_SMART_NULLS文档</a> 。</p>
-<p><b id="14"></b></p>
-<h2 id="15-为下一步的断言捕获参数-18版本之后">15. 为下一步的断言捕获参数 (1.8版本之后)</h2>
-<p>Mockito以java代码风格的形式来验证参数值 : 即通过使用<code>equals()</code>函数。这也是我们推荐用于参数匹配的方式，因为这样会使得测试代码更简单、简洁。在某些情况下，当验证交互之后要检测真实的参数值时这将变得有用。例如 ：</p>
-<pre><code class="language-java">ArgumentCaptor&lt;Person&gt; argument = ArgumentCaptor.forClass(Person.class);
+<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#RETURNS_SMART_NULLS">RETURNS_SMART_NULLS文档</a> 。</p><p><b id="14"></b></p><h2 id="15-为下一步的断言捕获参数-18版本之后">15. 为下一步的断言捕获参数 (1.8版本之后)</h2>
+<p>Mockito以java代码风格的形式来验证参数值 : 即通过使用<code>equals()</code>函数。这也是我们推荐用于参数匹配的方式，因为这样会使得测试代码更简单、简洁。在某些情况下，当验证交互之后要检测真实的参数值时这将变得有用。例如 ：</p><pre><code class="language-java">ArgumentCaptor&lt;Person&gt; argument = ArgumentCaptor.forClass(Person.class);
 // 参数捕获
 verify(mock).doSomething(argument.capture());
 // 使用equal断言
 assertEquals(&quot;John&quot;, argument.getValue().getName());
 </code></pre>
-<p>警告 : 我们建议使用没有测试桩的ArgumentCaptor来验证，因为使用含有测试桩的ArgumentCaptor会降低测试代码的可读性，因为captor是在断言代码块之外创建的。另一个好处是它可以降低本地化的缺点，因为如果测试桩函数没有被调用，那么参数就不会被捕获。总之，ArgumentCaptor与自定义的参数匹配器相关(可以查看<a href="http://blog.fcj.one/ArgumentMatcher">ArgumentMatcher类的文档</a> )。这两种技术都能用于检测外部传递到Mock对象的参数。然而，使用ArgumentCaptor在以下的情况下更合适 :</p>
-<ul>
+<p>警告 : 我们建议使用没有测试桩的ArgumentCaptor来验证，因为使用含有测试桩的ArgumentCaptor会降低测试代码的可读性，因为captor是在断言代码块之外创建的。另一个好处是它可以降低本地化的缺点，因为如果测试桩函数没有被调用，那么参数就不会被捕获。总之，ArgumentCaptor与自定义的参数匹配器相关(可以查看<a href="http://blog.fcj.one/ArgumentMatcher">ArgumentMatcher类的文档</a> )。这两种技术都能用于检测外部传递到Mock对象的参数。然而，使用ArgumentCaptor在以下的情况下更合适 :</p><ul>
 <li>自定义不能被重用的参数匹配器</li>
 <li>你仅需要断言参数值</li>
 </ul>
 <p>自定义参数匹配器相关的资料你可以参考<a href="http://blog.fcj.one/ArgumentMatcher">ArgumentMatcher</a>文档。
-<b id="15"></b></p>
-<h2 id="16-真实的局部mocks-18版本之后">16. 真实的局部mocks (1.8版本之后)</h2>
-<p>在内部通过邮件进行了无数争辩和讨论后，最终 Mockito 决定支持部分测试，早前我们不支持是因为我们认为部分测试会让代码变得糟糕。然而，我们发现了部分测试真正合理的用法。<a href="http://monkeyisland.pl/2009/01/13/subclass-and-override-vs-partial-mocking-vs-refactoring/">详情点这</a></p>
-<p>在 Mockito 1.8 之前，spy() 方法并不会产生真正的部分测试，而这无疑会让一些开发者困惑。更详细的内容可以看：<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#13">这里</a> 或 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#spy(T)">Java 文档</a></p>
-<pre><code class="language-java">//you can create partial mock with spy() method:
+<b id="15"></b></p><h2 id="16-真实的局部mocks-18版本之后">16. 真实的局部mocks (1.8版本之后)</h2>
+<p>在内部通过邮件进行了无数争辩和讨论后，最终 Mockito 决定支持部分测试，早前我们不支持是因为我们认为部分测试会让代码变得糟糕。然而，我们发现了部分测试真正合理的用法。<a href="http://monkeyisland.pl/2009/01/13/subclass-and-override-vs-partial-mocking-vs-refactoring/">详情点这</a></p><p>在 Mockito 1.8 之前，spy() 方法并不会产生真正的部分测试，而这无疑会让一些开发者困惑。更详细的内容可以看：<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#13">这里</a> 或 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#spy(T)">Java 文档</a></p><pre><code class="language-java">//you can create partial mock with spy() method:
 List list = spy(new LinkedList());
 
 //you can enable partial mock capabilities selectively on mocks:
@@ -960,32 +876,19 @@ Foo mock = mock(Foo.class);
 //If real implementation throws exceptions or depends on specific state of the object then you&#39;re in trouble.
 when(mock.someMethod()).thenCallRealMethod();
 </code></pre>
-<p>一如既往，你会去读部分测试的警告部分：面向对象编程通过将抽象的复杂度拆分为一个个独立，精确的 SRPy 对象中，降低了抽象处理的复杂度。那部分测试是怎么遵循这个规范的呢？事实上部分测试并没有遵循这个规范……部分测试通常意味着抽象的复杂度被移动到同一个对象的不同方法中，在大多数情况下，这不会是你想要的应用架构方式。</p>
-<p>然而，在一些罕见的情况下部分测试才会是易用的：处理不能轻易修改的代码（第三方接口，临时重构的遗留代码等等）。然而，为了新的，测试驱动和架构优秀的代码，我是不会使用部分测试的。
-<b id="16"></b></p>
-<h2 id="17-重置mocks对象-18版本之后">17. 重置mocks对象 (1.8版本之后)</h2>
-<p>聪明的 Mockito 使用者很少会用到这个特性，因为他们知道这是出现糟糕测试单元的信号。通常情况下你不会需要重设你的测试单元，只需要为每一个测试方法重新创建一个测试单元就可以了。</p>
-<p>如果你真的想通过 reset() 方法满足某些需求的话，请考虑实现简单，小而且专注于测试方法而不是冗长，精确的测试。首先可能出现的代码异味就是测试方法中间那的 reset() 方法。这可能意味着你已经过度测试了。请遵循测试方法的呢喃：请让我们小，而且专注于单一的行为上。在 Mockito 邮件列表中就有好几个讨论是和这个有关的。</p>
-<p>添加 reset() 方法的唯一原因就是让它能与容器注入的测试单元协作。详情看 <a href="http://code.google.com/p/mockito/issues/detail?id=55">issue 55</a> 或 <a href="http://code.google.com/p/mockito/wiki/FAQ">FAQ</a>。</p>
-<p>别自己给自己找麻烦，reset() 方法在测试方法的中间确实是代码异味。</p>
-<pre><code class="language-java">List mock = mock(List.class);
+<p>一如既往，你会去读部分测试的警告部分：面向对象编程通过将抽象的复杂度拆分为一个个独立，精确的 SRPy 对象中，降低了抽象处理的复杂度。那部分测试是怎么遵循这个规范的呢？事实上部分测试并没有遵循这个规范……部分测试通常意味着抽象的复杂度被移动到同一个对象的不同方法中，在大多数情况下，这不会是你想要的应用架构方式。</p><p>然而，在一些罕见的情况下部分测试才会是易用的：处理不能轻易修改的代码（第三方接口，临时重构的遗留代码等等）。然而，为了新的，测试驱动和架构优秀的代码，我是不会使用部分测试的。
+<b id="16"></b></p><h2 id="17-重置mocks对象-18版本之后">17. 重置mocks对象 (1.8版本之后)</h2>
+<p>聪明的 Mockito 使用者很少会用到这个特性，因为他们知道这是出现糟糕测试单元的信号。通常情况下你不会需要重设你的测试单元，只需要为每一个测试方法重新创建一个测试单元就可以了。</p><p>如果你真的想通过 reset() 方法满足某些需求的话，请考虑实现简单，小而且专注于测试方法而不是冗长，精确的测试。首先可能出现的代码异味就是测试方法中间那的 reset() 方法。这可能意味着你已经过度测试了。请遵循测试方法的呢喃：请让我们小，而且专注于单一的行为上。在 Mockito 邮件列表中就有好几个讨论是和这个有关的。</p><p>添加 reset() 方法的唯一原因就是让它能与容器注入的测试单元协作。详情看 <a href="http://code.google.com/p/mockito/issues/detail?id=55">issue 55</a> 或 <a href="http://code.google.com/p/mockito/wiki/FAQ">FAQ</a>。</p><p>别自己给自己找麻烦，reset() 方法在测试方法的中间确实是代码异味。</p><pre><code class="language-java">List mock = mock(List.class);
 when(mock.size()).thenReturn(10);
 mock.add(1);
 
 reset(mock);
 //at this point the mock forgot any interactions &amp; stubbing
 </code></pre>
-<p><b id="17"></b></p>
-<h2 id="18-故障排查与验证框架的使用-18版本之后">18. 故障排查与验证框架的使用 (1.8版本之后)</h2>
-<p>首先，如果出现了任何问题，我建议你先看 <a href="http://code.google.com/p/mockito/wiki/FAQ">Mockito FAQ</a>。</p>
-<p>任何你提的问题都会被提交到 Mockito 的<a href="http://groups.google.com/group/mockito">邮件列表</a>中。</p>
-<p>然后你应该知道 Mockito 会验证你是否始终以正确的方式使用它，对此有疑惑的话不妨看看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#validateMockitoUsage()">validateMockitoUsage()</a> 的文档说明。
-<b id="18"></b></p>
-<h2 id="19-行为驱动开发的别名-18版本之后">19. 行为驱动开发的别名 (1.8版本之后)</h2>
-<p>行为驱动开发实现测试单元的模式将 //given //when //then comments 视作测试方法的基础，这也是我们实现单元测试时被建议做的！</p>
-<p><a href="http://en.wikipedia.org/wiki/Behavior_Driven_Development">你可以在这开始学习有关 BDD 的知识</a></p>
-<p>问题是当信息没有很好地与 //given //when //then comments 交互时，扮演规范角色的测试桩 API 就会出现问题。这是因为测试桩属于给定测试单元的组件，而且不是任何测试的组件。因此 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/BDDMockito.html">BDDMockito</a> 类介绍了一个别名，使你的测试桩方法调用 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/BDDMockito.html#given(T)">BDDMockito.given(Object)</a> 方法。现在它可以很好地和给定的 BDD 模式的测试单元组件进行交互。</p>
-<pre><code class="language-java">import static org.mockito.BDDMockito.*;
+<p><b id="17"></b></p><h2 id="18-故障排查与验证框架的使用-18版本之后">18. 故障排查与验证框架的使用 (1.8版本之后)</h2>
+<p>首先，如果出现了任何问题，我建议你先看 <a href="http://code.google.com/p/mockito/wiki/FAQ">Mockito FAQ</a>。</p><p>任何你提的问题都会被提交到 Mockito 的<a href="http://groups.google.com/group/mockito">邮件列表</a>中。</p><p>然后你应该知道 Mockito 会验证你是否始终以正确的方式使用它，对此有疑惑的话不妨看看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#validateMockitoUsage()">validateMockitoUsage()</a> 的文档说明。
+<b id="18"></b></p><h2 id="19-行为驱动开发的别名-18版本之后">19. 行为驱动开发的别名 (1.8版本之后)</h2>
+<p>行为驱动开发实现测试单元的模式将 //given //when //then comments 视作测试方法的基础，这也是我们实现单元测试时被建议做的！</p><p><a href="http://en.wikipedia.org/wiki/Behavior_Driven_Development">你可以在这开始学习有关 BDD 的知识</a></p><p>问题是当信息没有很好地与 //given //when //then comments 交互时，扮演规范角色的测试桩 API 就会出现问题。这是因为测试桩属于给定测试单元的组件，而且不是任何测试的组件。因此 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/BDDMockito.html">BDDMockito</a> 类介绍了一个别名，使你的测试桩方法调用 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/BDDMockito.html#given(T)">BDDMockito.given(Object)</a> 方法。现在它可以很好地和给定的 BDD 模式的测试单元组件进行交互。</p><pre><code class="language-java">import static org.mockito.BDDMockito.*;
 
 Seller seller = mock(Seller.class);
 Shop shop = new Shop(seller);
@@ -1001,37 +904,19 @@ public void shouldBuyBread() throws Exception {
   assertThat(goods, containBread());
 }
 </code></pre>
-<p><b id="19"></b></p>
-<h2 id="20-序列化mock对象">20. 序列化mock对象</h2>
-<p>模拟对象可以被序列化。有了这个特性你就可以在依赖被序列化的情况下使用模拟对象了。</p>
-<p>警告：这个特性很少在单元测试中被使用。</p>
-<p>To create serializable mock use <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockSettings.html#serializable()">MockSettings.serializable()</a>:</p>
-<p>这个特性通过 BDD 拥有不可考外部依赖的特性的具体用例实现，来自外部依赖的 Web 环境和对象会被序列化，然后在不同层之间被传递。</p>
-<pre><code class="language-java">List serializableMock = mock(List.class, withSettings().serializable());
+<p><b id="19"></b></p><h2 id="20-序列化mock对象">20. 序列化mock对象</h2>
+<p>模拟对象可以被序列化。有了这个特性你就可以在依赖被序列化的情况下使用模拟对象了。</p><p>警告：这个特性很少在单元测试中被使用。</p><p>To create serializable mock use <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockSettings.html#serializable()">MockSettings.serializable()</a>:</p><p>这个特性通过 BDD 拥有不可考外部依赖的特性的具体用例实现，来自外部依赖的 Web 环境和对象会被序列化，然后在不同层之间被传递。</p><pre><code class="language-java">List serializableMock = mock(List.class, withSettings().serializable());
 </code></pre>
-<p>The mock can be serialized assuming all the normal <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html">serialization requirements</a> are met by the class.</p>
-<p>模拟对象能被序列化假设所有普通的序列化要求都被类满足了。</p>
-<p>让一个真实的侦查对象可序列化需要多一些努力，因为 spy(…) 方法没有接收 MockSettings 的重载版本。不过不用担心，你几乎不可能用到这。</p>
-<pre><code class="language-java">List&lt;Object&gt; list = new ArrayList&lt;Object&gt;();
+<p>The mock can be serialized assuming all the normal <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html">serialization requirements</a> are met by the class.</p><p>模拟对象能被序列化假设所有普通的序列化要求都被类满足了。</p><p>让一个真实的侦查对象可序列化需要多一些努力，因为 spy(…) 方法没有接收 MockSettings 的重载版本。不过不用担心，你几乎不可能用到这。</p><pre><code class="language-java">List&lt;Object&gt; list = new ArrayList&lt;Object&gt;();
 List&lt;Object&gt; spy = mock(ArrayList.class, withSettings()
                 .spiedInstance(list)
                 .defaultAnswer(CALLS_REAL_METHODS)
                 .serializable());
 </code></pre>
-<p><b id="20"></b></p>
-<h2 id="21-新的注解--captorspy-injectmocks-183版本之后">21. 新的注解 : @Captor,@Spy,@ InjectMocks (1.8.3版本之后)</h2>
-<p>V1.8.3 带来的新注解在某些场景下可能会很实用</p>
-<p>@<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Captor.html">Captor</a> 简化 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/ArgumentCaptor.html">ArgumentCaptor</a> 的创建 - 当需要捕获的参数是一个令人讨厌的通用类，而且你想避免编译时警告。</p>
-<p>@<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Spy.html">Spy</a> - 你可以用它代替 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#spy(T)">spy(Object) 方法</a></p>
-<p>@<a href="http://site.mockito.org/mockito/docs/current/org/mockito/InjectMocks.html">InjectMocks</a> - 自动将模拟对象或侦查域注入到被测试对象中。需要注意的是 @InjectMocks 也能与 @Spy 一起使用，这就意味着 Mockito 会注入模拟对象到测试的部分测试中。它的复杂度也是你应该使用部分测试原因。</p>
-<p>所有新的注解仅仅在 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockitoAnnotations.html#initMocks(java.lang.Object)">MockitoAnnotations.initMocks(Object)</a> 方法中被处理，就像你在 built-in runner 中使用的 @<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mock.html">Mock</a> 注解：<a href="http://site.mockito.org/mockito/docs/current/org/mockito/runners/MockitoJUnitRunner.html">MockitoJUnitRunner</a> 或 规范: <a href="http://site.mockito.org/mockito/docs/current/org/mockito/junit/MockitoRule.html">MockitoRule</a>.
-<b id="21"></b></p>
-<h2 id="22-验证超时-185版本之后">22. 验证超时 (1.8.5版本之后)</h2>
-<p>允许带有暂停的验证。这使得一个验证去等待一段特定的时间，以获得想要的交互而不是如果还没有发生事件就带来的立即失败。在并发条件下的测试这会很有用。</p>
-<p>感觉起来这个特性应该很少被使用 - 指出更好的测试多线程系统的方法。</p>
-<p>还没有实现去和 InOrder 验证协作。</p>
-<p>例子：</p>
-<pre><code class="language-java">//passes when someMethod() is called within given time span
+<p><b id="20"></b></p><h2 id="21-新的注解--captorspy-injectmocks-183版本之后">21. 新的注解 : @Captor,@Spy,@ InjectMocks (1.8.3版本之后)</h2>
+<p>V1.8.3 带来的新注解在某些场景下可能会很实用</p><p>@<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Captor.html">Captor</a> 简化 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/ArgumentCaptor.html">ArgumentCaptor</a> 的创建 - 当需要捕获的参数是一个令人讨厌的通用类，而且你想避免编译时警告。</p><p>@<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Spy.html">Spy</a> - 你可以用它代替 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#spy(T)">spy(Object) 方法</a></p><p>@<a href="http://site.mockito.org/mockito/docs/current/org/mockito/InjectMocks.html">InjectMocks</a> - 自动将模拟对象或侦查域注入到被测试对象中。需要注意的是 @InjectMocks 也能与 @Spy 一起使用，这就意味着 Mockito 会注入模拟对象到测试的部分测试中。它的复杂度也是你应该使用部分测试原因。</p><p>所有新的注解仅仅在 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockitoAnnotations.html#initMocks(java.lang.Object)">MockitoAnnotations.initMocks(Object)</a> 方法中被处理，就像你在 built-in runner 中使用的 @<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mock.html">Mock</a> 注解：<a href="http://site.mockito.org/mockito/docs/current/org/mockito/runners/MockitoJUnitRunner.html">MockitoJUnitRunner</a> 或 规范: <a href="http://site.mockito.org/mockito/docs/current/org/mockito/junit/MockitoRule.html">MockitoRule</a>.
+<b id="21"></b></p><h2 id="22-验证超时-185版本之后">22. 验证超时 (1.8.5版本之后)</h2>
+<p>允许带有暂停的验证。这使得一个验证去等待一段特定的时间，以获得想要的交互而不是如果还没有发生事件就带来的立即失败。在并发条件下的测试这会很有用。</p><p>感觉起来这个特性应该很少被使用 - 指出更好的测试多线程系统的方法。</p><p>还没有实现去和 InOrder 验证协作。</p><p>例子：</p><pre><code class="language-java">//passes when someMethod() is called within given time span
 verify(mock, timeout(100)).someMethod();
 //above is an alias to:
 verify(mock, timeout(100).times(1)).someMethod();
@@ -1046,12 +931,8 @@ verify(mock, timeout(100).atLeast(2)).someMethod();
 //useful only if you have your own custom verification modes.
 verify(mock, new Timeout(100, yourOwnVerificationMode)).someMethod();
 </code></pre>
-<p><b id="22"></b></p>
-<h2 id="23-自动初始化被spies-injectmocks注解的字段以及构造函数注入-190版本之后">23. 自动初始化被@Spies, @InjectMocks注解的字段以及构造函数注入 (1.9.0版本之后)</h2>
-<p>Mockito 现在会通过注入构造方法、setter 或域注入尽可能初始化带有 @<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Spy.html">Spy</a> 和 @<a href="http://site.mockito.org/mockito/docs/current/org/mockito/InjectMocks.html">InjectMocks</a> 注解的域或方法。</p>
-<p>为了利用这一点特性，你需要使用 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockitoAnnotations.html#initMocks(java.lang.Object)">MockitoAnnotations.initMocks(Object)</a>, <a href="http://site.mockito.org/mockito/docs/current/org/mockito/runners/MockitoJUnitRunner.html">MockitoJUnitRunner</a> 或 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/junit/MockitoRule.html">MockitoRule</a>。</p>
-<p>为了 InjectMocks 请在 Java 文档中了解更多可用的技巧和注入的规范</p>
-<pre><code class="language-java">//instead:
+<p><b id="22"></b></p><h2 id="23-自动初始化被spies-injectmocks注解的字段以及构造函数注入-190版本之后">23. 自动初始化被@Spies, @InjectMocks注解的字段以及构造函数注入 (1.9.0版本之后)</h2>
+<p>Mockito 现在会通过注入构造方法、setter 或域注入尽可能初始化带有 @<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Spy.html">Spy</a> 和 @<a href="http://site.mockito.org/mockito/docs/current/org/mockito/InjectMocks.html">InjectMocks</a> 注解的域或方法。</p><p>为了利用这一点特性，你需要使用 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockitoAnnotations.html#initMocks(java.lang.Object)">MockitoAnnotations.initMocks(Object)</a>, <a href="http://site.mockito.org/mockito/docs/current/org/mockito/runners/MockitoJUnitRunner.html">MockitoJUnitRunner</a> 或 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/junit/MockitoRule.html">MockitoRule</a>。</p><p>为了 InjectMocks 请在 Java 文档中了解更多可用的技巧和注入的规范</p><pre><code class="language-java">//instead:
 @Spy BeerDrinker drinker = new BeerDrinker();
 //you can write:
 @Spy BeerDrinker drinker;
@@ -1059,20 +940,14 @@ verify(mock, new Timeout(100, yourOwnVerificationMode)).someMethod();
 //same applies to @InjectMocks annotation:
 @InjectMocks LocalPub;
 </code></pre>
-<p><b id="23"></b></p>
-<h2 id="24-单行测试桩-190版本之后">24. 单行测试桩 (1.9.0版本之后)</h2>
-<p>Mockito 现在允许你在使用测试桩时创建模拟对象。基本上，它允许在一行代码中创建一个测试桩，这对保持代码的整洁很有用。举例来说，有些乏味的测试桩会被创建，并在测试初始化域时被打入，例如：</p>
-<pre><code class="language-java">public class CarTest {
+<p><b id="23"></b></p><h2 id="24-单行测试桩-190版本之后">24. 单行测试桩 (1.9.0版本之后)</h2>
+<p>Mockito 现在允许你在使用测试桩时创建模拟对象。基本上，它允许在一行代码中创建一个测试桩，这对保持代码的整洁很有用。举例来说，有些乏味的测试桩会被创建，并在测试初始化域时被打入，例如：</p><pre><code class="language-java">public class CarTest {
   Car boringStubbedCar = when(mock(Car.class).shiftGear()).thenThrow(EngineNotStarted.class).getMock();
 
   @Test public void should... {}
 </code></pre>
-<p><b id="24"></b></p>
-<h2 id="25-验证被忽略的测试桩-190版本之后">25. 验证被忽略的测试桩 (1.9.0版本之后)</h2>
-<p>Mockito 现在允许为了验证无视测试桩。在与 verifyNoMoreInteractions() 方法或验证 inOrder() 方法耦合时，有些时候会很有用。帮助避免繁琐的打入测试桩调用验证 - 显然我们不会对验证测试桩感兴趣。</p>
-<p>警告，ignoreStubs() 可能会导致 verifyNoMoreInteractions(ignoreStubs(…)) 的过度使用。谨记在心，Mockito 没有推荐用 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#verifyNoMoreInteractions(java.lang.Object...)">verifyNoMoreInteractions()</a> 方法连续地施用于每一个测试中，原因在 Java 文档中有。</p>
-<p>一些例子：</p>
-<pre><code class="language-java">verify(mock).foo();
+<p><b id="24"></b></p><h2 id="25-验证被忽略的测试桩-190版本之后">25. 验证被忽略的测试桩 (1.9.0版本之后)</h2>
+<p>Mockito 现在允许为了验证无视测试桩。在与 verifyNoMoreInteractions() 方法或验证 inOrder() 方法耦合时，有些时候会很有用。帮助避免繁琐的打入测试桩调用验证 - 显然我们不会对验证测试桩感兴趣。</p><p>警告，ignoreStubs() 可能会导致 verifyNoMoreInteractions(ignoreStubs(…)) 的过度使用。谨记在心，Mockito 没有推荐用 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#verifyNoMoreInteractions(java.lang.Object...)">verifyNoMoreInteractions()</a> 方法连续地施用于每一个测试中，原因在 Java 文档中有。</p><p>一些例子：</p><pre><code class="language-java">verify(mock).foo();
 verify(mockTwo).bar();
 
 //ignores all stubbed methods:
@@ -1085,25 +960,20 @@ inOrder.verify(mockTwo).bar();
 inOrder.verifyNoMoreInteractions();
 </code></pre>
 <p>更好的例子和更多的细节都可以在 Java 文档的 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#ignoreStubs(java.lang.Object...)">ignoreStubs(Object…)</a> 部分看到。
-<b id="25"></b></p>
-<h2 id="26-mock详情-195版本之后">26. mock详情 (1.9.5版本之后)</h2>
-<p>为了区别一个对象是模拟对象还是侦查对象：</p>
-<pre><code class="language-java">Mockito.mockingDetails(someObject).isMock();
+<b id="25"></b></p><h2 id="26-mock详情-195版本之后">26. mock详情 (1.9.5版本之后)</h2>
+<p>为了区别一个对象是模拟对象还是侦查对象：</p><pre><code class="language-java">Mockito.mockingDetails(someObject).isMock();
 Mockito.mockingDetails(someObject).isSpy();
 </code></pre>
 <p><a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockingDetails.html#isMock()">MockingDetails.isMock()</a> 和 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockingDetails.html#isSpy()">MockingDetails.isSpy()</a> 方法都会返回一个布尔值。因为一个侦查对象只是模拟对象的一种变种，所以 isMock() 方法在对象是侦查对象是会返回 true。在之后的 Mockito 版本中 MockingDetails 会变得更健壮，并提供其他与模拟对象相关的有用信息，例如：调用，测试桩信息，等等……
-<b id="26"></b></p>
-<h2 id="27-委托调用真实实例-since-195">27. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#delegating_call_to_real_instance">委托调用真实实例</a> (Since 1.9.5)</h2>
+<b id="26"></b></p><h2 id="27-委托调用真实实例-since-195">27. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#delegating_call_to_real_instance">委托调用真实实例</a> (Since 1.9.5)</h2>
 <p>当<strong>使用常规的 spy API 去 mock 或者 spy 一个对象很困难</strong>时可以用 delegate 来 spy 或者 mock 对象的某一部分。
 从 Mockito 的 1.10.11 版本开始， delegate 有可能和 mock 的类型相同也可能不同。如果不是同一类型，
-delegate 类型需要提供一个匹配方法否则就会抛出一个异常。下面是关于这个特性的一些用例:</p>
-<ul>
+delegate 类型需要提供一个匹配方法否则就会抛出一个异常。下面是关于这个特性的一些用例:</p><ul>
 <li>带有 interface 的 final 类</li>
 <li>已经自定义代理的对象</li>
 <li>带有 finalize 方法的特殊对象，就是避免重复执行。</li>
 </ul>
-<p>和常规 spy 的不同:</p>
-<ul>
+<p>和常规 spy 的不同:</p><ul>
 <li>标准的 spy <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#spy(T)">(spy(Object))</a> 包含被 spy 实例的所有状态信息，方法在 spy 对象上被调用。被 spy 的对象只在 mock
 创建时被用来拷贝状态信息。如果你通过标准 spy 调用一个方法，这个 spy 会调用其内部的其他方法记录这次操作，
 以便后面验证使用。等效于存根 (stubbed)操作。</li>
@@ -1111,34 +981,23 @@ delegate 类型需要提供一个匹配方法否则就会抛出一个异常。�
 从一个 mock 调用它被委托的方法，它会调用其内部方法，这些调用不会被记录，stubbing 在这里也不会生效。
 Mock 的 delegates 相对于标准的 spy 来说功能弱了很多，不过在标准 spy 不能被创建的时候很有用。</li>
 </ul>
-<p>更多信息可以看这里 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/AdditionalAnswers.html#delegatesTo(java.lang.Object)">AdditionalAnswers.delegatesTo(Object)</a>.</p>
-<hr>
-<p><b id="27"></b></p>
-<h2 id="28-mockmaker-api-since-195">28. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#mock_maker_plugin">MockMaker API</a> (Since 1.9.5)</h2>
-<p>为了满足用户的需求和 Android 平台使用。Mockito 现在提供一个扩展点，允许替换代理生成引擎。默认情况下，Mockito 使用 cglib 创建动态代理。</p>
-<p>这个扩展点是为想要扩展 Mockito 功能的高级用户准备的。比如，我们现在就可以在 dexmaker 的帮助下使用 Mockito
-测试 Android。</p>
-<p>更多的细节，原因和示例请看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/plugins/MockMaker.html">MockMaker</a> 的文档。</p>
-<hr>
-<p><b id="28"></b></p>
-<h2 id="29-new-bdd-风格的验证-since-1100">29. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#BDD_behavior_verification">(new) BDD 风格的验证</a> (Since 1.10.0)</h2>
-<p>开启 Behavior Driven Development (BDD) 风格的验证可以通过 BBD 的关键词 <strong>then</strong> 开始验证。</p>
-<pre><code class="language-java">given(dog.bark()).willReturn(2);
+<p>更多信息可以看这里 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/AdditionalAnswers.html#delegatesTo(java.lang.Object)">AdditionalAnswers.delegatesTo(Object)</a>.</p><hr>
+<p><b id="27"></b></p><h2 id="28-mockmaker-api-since-195">28. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#mock_maker_plugin">MockMaker API</a> (Since 1.9.5)</h2>
+<p>为了满足用户的需求和 Android 平台使用。Mockito 现在提供一个扩展点，允许替换代理生成引擎。默认情况下，Mockito 使用 cglib 创建动态代理。</p><p>这个扩展点是为想要扩展 Mockito 功能的高级用户准备的。比如，我们现在就可以在 dexmaker 的帮助下使用 Mockito
+测试 Android。</p><p>更多的细节，原因和示例请看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/plugins/MockMaker.html">MockMaker</a> 的文档。</p><hr>
+<p><b id="28"></b></p><h2 id="29-new-bdd-风格的验证-since-1100">29. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#BDD_behavior_verification">(new) BDD 风格的验证</a> (Since 1.10.0)</h2>
+<p>开启 Behavior Driven Development (BDD) 风格的验证可以通过 BBD 的关键词 <strong>then</strong> 开始验证。</p><pre><code class="language-java">given(dog.bark()).willReturn(2);
 
 // when
 ...
 
 then(person).should(times(2)).ride(bike);
 </code></pre>
-<p>更多信息请查阅 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/BDDMockito.html#then(T)">BDDMockito.then(Object)</a> .</p>
-<hr>
-<p><b id="29"></b></p>
-<h2 id="30-new-spying-或-mocking-抽象类-since-11012">30. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#spying_abstract_classes">(new) Spying 或 mocking 抽象类</a> (Since 1.10.12)</h2>
-<p>现在可以方便的 spy 一个抽象类。注意，过度使用 spy 或许意味着代码的设计上有问题。(see <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#spy(T)">spy(Object)</a>).</p>
-<p>之前，spying 只可以用在实例对象上。而现在新的 API 可以在创建一个 mock 实例时使用构造函数。这对 mock
+<p>更多信息请查阅 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/BDDMockito.html#then(T)">BDDMockito.then(Object)</a> .</p><hr>
+<p><b id="29"></b></p><h2 id="30-new-spying-或-mocking-抽象类-since-11012">30. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#spying_abstract_classes">(new) Spying 或 mocking 抽象类</a> (Since 1.10.12)</h2>
+<p>现在可以方便的 spy 一个抽象类。注意，过度使用 spy 或许意味着代码的设计上有问题。(see <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#spy(T)">spy(Object)</a>).</p><p>之前，spying 只可以用在实例对象上。而现在新的 API 可以在创建一个 mock 实例时使用构造函数。这对 mock
 一个抽象类来说是很重要的，这样使用者就不必再提供一个抽象类的实例了。目前的话只支持无参构造函数，
-如果你认为这样还不够的话欢迎向我们反馈。</p>
-<pre><code class="language-java">//convenience API, new overloaded spy() method:
+如果你认为这样还不够的话欢迎向我们反馈。</p><pre><code class="language-java">//convenience API, new overloaded spy() method:
  SomeAbstract spy = spy(SomeAbstract.class);
 
  //Robust API, via settings builder:
@@ -1149,25 +1008,19 @@ then(person).should(times(2)).ride(bike);
  InnerAbstract spy = mock(InnerAbstract.class, withSettings()
     .useConstructor().outerInstance(outerInstance).defaultAnswer(CALLS_REAL_METHODS));
 </code></pre>
-<p>更多信息请见 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockSettings.html#useConstructor()">MockSettings.useConstructor()</a> .</p>
-<hr>
-<p><b id="30"></b></p>
-<h2 id="31-new-mockito-mocks-可以通过-classloaders-序列化反序列化-since-1100">31. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#serilization_across_classloader">(new) Mockito mocks 可以通过 classloaders 序列化/反序列化</a> (Since 1.10.0)</h2>
+<p>更多信息请见 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockSettings.html#useConstructor()">MockSettings.useConstructor()</a> .</p><hr>
+<p><b id="30"></b></p><h2 id="31-new-mockito-mocks-可以通过-classloaders-序列化反序列化-since-1100">31. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#serilization_across_classloader">(new) Mockito mocks 可以通过 classloaders 序列化/反序列化</a> (Since 1.10.0)</h2>
 <p>Mockito 通过 classloader 引入序列化。和其他形式的序列化一样，所有 mock 层的对象都要被序列化，
-包括 answers。因为序列化模式需要大量的工作，所以这是一个可选择设置。</p>
-<pre><code class="language-java">// 常规的 serialization
+包括 answers。因为序列化模式需要大量的工作，所以这是一个可选择设置。</p><pre><code class="language-java">// 常规的 serialization
 mock(Book.class, withSettings().serializable());
 
 // 通过 classloaders 序列化
 mock(Book.class, withSettings().serializable(ACROSS_CLASSLOADERS));
 </code></pre>
-<p>更多信息请查看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockSettings.html#serializable(org.mockito.mock.SerializableMode)">MockSettings.serializable(SerializableMode)</a>.</p>
-<hr>
-<p><b id="31"></b></p>
-<h2 id="32-new-deep-stubs-更好的泛型支持-since-1100">32. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#better_generic_support_with_deep_stubs">(new) Deep stubs 更好的泛型支持</a> (Since 1.10.0)</h2>
+<p>更多信息请查看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockSettings.html#serializable(org.mockito.mock.SerializableMode)">MockSettings.serializable(SerializableMode)</a>.</p><hr>
+<p><b id="31"></b></p><h2 id="32-new-deep-stubs-更好的泛型支持-since-1100">32. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#better_generic_support_with_deep_stubs">(new) Deep stubs 更好的泛型支持</a> (Since 1.10.0)</h2>
 <p>Deep stubbing 现在可以更好的查找类的泛型信息。这就意味着像这样的类
-不必去 mock 它的行为就可以使用。</p>
-<pre><code class="language-java">class Lines extends List&lt;Line&gt; {
+不必去 mock 它的行为就可以使用。</p><pre><code class="language-java">class Lines extends List&lt;Line&gt; {
      // ...
  }
 
@@ -1176,34 +1029,25 @@ mock(Book.class, withSettings().serializable(ACROSS_CLASSLOADERS));
  // Now Mockito understand this is not an Object but a Line
  Line line = lines.iterator().next();
 </code></pre>
-<p>请注意，大多数情况下 mock 返回一个 mock 对象是错误的。</p>
-<hr>
-<p><b id="32"></b></p>
-<h2 id="33-new-mockito-junit-rule-since-11017">33. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#mockito_junit_rule">(new) Mockito JUnit rule</a> (Since 1.10.17)</h2>
+<p>请注意，大多数情况下 mock 返回一个 mock 对象是错误的。</p><hr>
+<p><b id="32"></b></p><h2 id="33-new-mockito-junit-rule-since-11017">33. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html#mockito_junit_rule">(new) Mockito JUnit rule</a> (Since 1.10.17)</h2>
 <p>Mockito 现在提供一个 JUnit rule。目前为止，有两种方法可以初始化 fields ，使用 Mockito 提供的注解比如
-<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mock.html">@Mock</a>, <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Spy.html">@Spy</a>, <a href="http://site.mockito.org/mockito/docs/current/org/mockito/InjectMocks.html">@InjectMocks</a> 等等。</p>
-<ul>
+<a href="http://site.mockito.org/mockito/docs/current/org/mockito/Mock.html">@Mock</a>, <a href="http://site.mockito.org/mockito/docs/current/org/mockito/Spy.html">@Spy</a>, <a href="http://site.mockito.org/mockito/docs/current/org/mockito/InjectMocks.html">@InjectMocks</a> 等等。</p><ul>
 <li>用 @RunWith(<a href="http://site.mockito.org/mockito/docs/current/org/mockito/runners/MockitoJUnitRunner.html">@MockitoJUnitRunner.class</a>) 标注 JUnit 测试类</li>
 <li>在 @Before 之前调用 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/MockitoAnnotations.html#initMocks(java.lang.Object)">MockitoAnnotations.initMocks(Object)</a></li>
 </ul>
-<p>现在你可以选择使用一个 rule:</p>
-<pre><code class="language-java">@RunWith(YetAnotherRunner.class)
+<p>现在你可以选择使用一个 rule:</p><pre><code class="language-java">@RunWith(YetAnotherRunner.class)
 public class TheTest {
     @Rule public MockitoRule mockito = MockitoJUnit.rule();
     // ...
 }
 </code></pre>
-<p>更多信息到这里查看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/junit/MockitoJUnit.html#rule()">MockitoJUnit.rule()</a>.</p>
-<hr>
-<p><b id="33"></b></p>
-<h2 id="34-new-开启和关闭-plugins-since-11015">34. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/plugins/PluginSwitch.html">(new) 开启和关闭 plugins</a> (Since 1.10.15)</h2>
-<p>这是一个测试特性，可以控制一个 mockito-plugin 开启或者关闭。详情请查看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/plugins/PluginSwitch.html">PluginSwitch</a></p>
-<hr>
-<p><b id="34"></b></p>
-<h3 id="35-自定义验证失败信息-since-200">35. 自定义验证失败信息 (Since 2.0.0)</h3>
+<p>更多信息到这里查看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/junit/MockitoJUnit.html#rule()">MockitoJUnit.rule()</a>.</p><hr>
+<p><b id="33"></b></p><h2 id="34-new-开启和关闭-plugins-since-11015">34. <a href="http://site.mockito.org/mockito/docs/current/org/mockito/plugins/PluginSwitch.html">(new) 开启和关闭 plugins</a> (Since 1.10.15)</h2>
+<p>这是一个测试特性，可以控制一个 mockito-plugin 开启或者关闭。详情请查看 <a href="http://site.mockito.org/mockito/docs/current/org/mockito/plugins/PluginSwitch.html">PluginSwitch</a></p><hr>
+<p><b id="34"></b></p><h3 id="35-自定义验证失败信息-since-200">35. 自定义验证失败信息 (Since 2.0.0)</h3>
 <p>允许声明一个在验证失败时输出的自定义消息
-示例:</p>
-<pre><code class="language-java">// will print a custom message on verification failure
+示例:</p><pre><code class="language-java">// will print a custom message on verification failure
 verify(mock, description(&quot;This will print on failure&quot;)).someMethod();
 
 // will work with any verification mode
@@ -1224,7 +1068,7 @@ verify(mock, times(2).description(&quot;someMethod should be called twice&quot;)
             <category term="java"/>
             <category term="develop"/>
 
-        <updated>2023-03-29T00:20:46+08:00</updated>
+        <updated>2023-03-17T12:11:26+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/17/141.jpg" alt="" />
@@ -1235,18 +1079,13 @@ verify(mock, times(2).description(&quot;someMethod should be called twice&quot;)
             <![CDATA[
                     <p><img src="https://ct-choochoo.github.io/ch-publii-pages/media/posts/17/141.jpg" class="type:primaryImage" alt="" /></p>
                 <h2 id="1-准备">1. 准备</h2>
-<p>申请百度翻译API 每月有免费额度,适合个人轻量使用</p>
-<ol>
+<p>申请百度翻译API 每月有免费额度,适合个人轻量使用</p><ol>
 <li><a href="https://fanyi-api.baidu.com/">https://fanyi-api.baidu.com/</a> </li>
 <li>创建应用,获得 <strong>APP ID</strong> 和 <strong>密钥</strong></li>
 </ol>
 <h2 id="2处理json">2.处理json</h2>
-<p>​	</p>
-<blockquote>
-<p>使用到的工具包</p>
-<p>​	fastjson : 解析json</p>
-<p>​	HttpUtil : 发送翻译请求</p>
-</blockquote>
+<p>​	</p><blockquote>
+<p>使用到的工具包</p><p>​	fastjson : 解析json</p><p>​	HttpUtil : 发送翻译请求</p></blockquote>
 <h3 id="21-导入需要的工具包">2.1 导入需要的工具包</h3>
 <pre><code class="language-xml">    &lt;dependency&gt;
       &lt;groupId&gt;cn.hutool&lt;/groupId&gt;
@@ -1398,7 +1237,6 @@ public class BaiduTranslateApi {
 }
 </code></pre>
 <p>处理后输出翻译后json, 由于使用的是免费的api一秒钟限制请求一次, 如果是vip的话可以去掉 <code>#translate().Thread.sleep(1100L);</code></p>
-
             ]]>
         </content>
     </entry>
@@ -1413,7 +1251,7 @@ public class BaiduTranslateApi {
             <category term="出行"/>
             <category term="real"/>
 
-        <updated>2023-03-29T00:03:29+08:00</updated>
+        <updated>2023-03-14T17:48:26+08:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
